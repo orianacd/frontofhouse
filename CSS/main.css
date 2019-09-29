@@ -1,0 +1,216 @@
+a {
+  color: rgb(23, 65, 23);
+  text-decoration: none;
+}
+ul {
+  margin: 12px;
+}
+
+.body {
+  background-color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+}
+
+.button {
+  background-color: #def1ed;
+  border-radius: 6px;
+  color: cadetblue;
+  padding: 6px 12px;
+}
+
+.button:hover {
+  background-color: mediumseagreen;
+}
+
+.contact-me {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+/*would like some help on figureing out how to make the background and or overall header smaller*/
+.header {
+  background-color: #abacab;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+/*actually index.html*/
+.homepage {
+  display: flex;
+  flex-grow: 1;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
+}
+
+.image-lable {
+  background-color: grey;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.image-wrapper {
+  display: inline-block;
+  margin-left: 50px;
+  position: relative;
+}
+
+.mainpage {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 12px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.navitem {
+  padding: 10px;
+}
+
+.orianaheadshot {
+  display: block;
+  float: center;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  width: 250px;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-grid-image {
+  height: 300px;
+  width: 300px;
+}
+
+.portfolio-image-text {
+  display: inline-block;
+  margin: 15px;
+}
+
+.portfolio-image-wrapper {
+  padding: 24px;
+  position: relative;
+}
+
+.portfolio-section {
+  display: flex;
+  justify-content: right;
+  padding: 12px;
+}
+
+.portfolio-text {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.section-main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/*all images on portfolio page are sized with class="walkway" to keep them uniform*/
+.walkway {
+  float: left;
+  height: 300px;
+  padding: 24px;
+  width: 300px;
+}
+
+/** responsive styles screen size > 1024px */
+/** ipad pro*/
+@media (max-width: 1024px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*ipad*/
+@media (max-width: 768px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*iphone X*/
+@media (max-width: 375px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*iPhone 6/7/8 plus */
+@media (max-width: 414px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*iPHone 6/7/8 */
+@media (max-width: 375px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*iPhone 5/SE */
+@media (max-width: 320px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*pixel 2XL*/
+@media (max-width: 411px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*pixel 2*/
+@media (max-width: 411px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*galxay S5*/
+@media (max-width: 360px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
