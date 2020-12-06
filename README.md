@@ -1,2 +1,3 @@
-# responsivewebsite
-Updates made to website to make it responsive
+# promptbook 
+
+New homepage to showcase my resume and list my contact information
